@@ -3,7 +3,7 @@ import { ICompany } from './interface';
 
 const companySchema = new Schema<ICompany>({
   id: { type: String, required: true },
-  name: { type: String, required: true, minlength: 3, maxlength: 16 },
+  name: { type: String, required: true, minlength: 3, maxlength: 32 },
   logo: { type: String },
   banner: { type: String },
   phoneNumber: { type: String },
@@ -13,6 +13,7 @@ const companySchema = new Schema<ICompany>({
   location: { type: String },
   website: { type: String },
   galleries: [{ type: String }],
+  videoURL: {type: String},
   industry: { type: String },
   socialLinks: {
     facebook: String,

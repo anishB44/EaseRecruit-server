@@ -37,6 +37,7 @@ const jobSchema = new mongoose_1.Schema({
     skills: [{ title: { type: String } }],
     requirements: [{ title: { type: String } }],
     responsibilities: [{ title: { type: String } }],
+    stages: [{ title: { type: String } }],
 }, { timestamps: true });
 jobSchema.statics.isJobExist = function (id) {
     return __awaiter(this, void 0, void 0, function* () {

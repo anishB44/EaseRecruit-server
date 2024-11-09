@@ -19,6 +19,7 @@ const editProfile = z.object({
       .optional(),
     about: z.string().optional(),
     galleries: z.string().array().optional(),
+    videoURL: z.string().optional(),
     website: z.string().optional(),
     socialLinks: z
       .object({

@@ -13,6 +13,7 @@ const companySchema = new mongoose_1.Schema({
     location: { type: String },
     website: { type: String },
     galleries: [{ type: String }],
+    videoURL: {type: String},
     industry: { type: String },
     socialLinks: {
         facebook: String,

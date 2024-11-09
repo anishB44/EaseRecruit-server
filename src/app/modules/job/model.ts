@@ -33,6 +33,7 @@ const jobSchema = new Schema<IJob>(
     skills: [{ title: { type: String } }],
     requirements: [{ title: { type: String } }],
     responsibilities: [{ title: { type: String } }],
+    stages: [{title: {type: String}}],
   },
   { timestamps: true }
 );

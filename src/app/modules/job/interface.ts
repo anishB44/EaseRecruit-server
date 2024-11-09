@@ -21,6 +21,7 @@ export type IJob = {
   skills: { title: string }[];
   requirements: { title: string }[];
   responsibilities: { title: string }[];
+  stages: {title: string}[];
 };
 
 export interface JobModel extends Model<IJob> {

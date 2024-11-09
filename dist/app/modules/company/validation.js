@@ -21,6 +21,7 @@ const editProfile = zod_1.z.object({
             .optional(),
         about: zod_1.z.string().optional(),
         galleries: zod_1.z.string().array().optional(),
+        videoURL: zod_1.z.string().optional(),
         website: zod_1.z.string().optional(),
         socialLinks: zod_1.z
             .object({

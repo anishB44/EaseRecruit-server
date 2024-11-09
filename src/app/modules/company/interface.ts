@@ -11,6 +11,7 @@ export type ICompany = {
   industry: string;
   about: string;
   galleries: string[];
+  videoURL: string,
   website: string;
   socialLinks: {
     facebook: string;

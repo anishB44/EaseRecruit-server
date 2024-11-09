@@ -35,6 +35,7 @@ const createJob = z.object({
     skills: z.object({ title: z.string() }).array().optional(),
     requirements: z.object({ title: z.string() }).array().optional(),
     responsibilities: z.object({ title: z.string() }).array().optional(),
+    stages: z.object({ title: z.string() }).array().optional(),
   }),
 });
 

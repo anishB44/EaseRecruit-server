@@ -21,6 +21,7 @@ const createJob = zod_1.z.object({
         skills: zod_1.z.object({ title: zod_1.z.string() }).array().optional(),
         requirements: zod_1.z.object({ title: zod_1.z.string() }).array().optional(),
         responsibilities: zod_1.z.object({ title: zod_1.z.string() }).array().optional(),
+        stages: zod_1.z.object({ title: zod_1.z.string() }).array().optional(),
     }),
 });
 const updateJob = zod_1.z.object({
